@@ -15,7 +15,7 @@ class DeepWalk(torch.nn.Module):
         maximum_length = 2*self.window_size + 1
         for _ in range(self.walks_per_vertex):
             all_nodes =  G.nodes()    # Torch Tensor
-            rand_idx = torch.randperm(all_nodes.shape[0])
+            rand_idx = torch.randperm(all_nodes.shape[0])   # Random shuffle nodes
             all_nodes = all_nodes[rand_idx]
             for vertex_i in all_nodes:
                 walk = self.randomWalk(vertex_i)
