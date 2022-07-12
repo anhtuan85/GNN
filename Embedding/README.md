@@ -3,4 +3,4 @@
 ## Methods
 
   * [x] [DeepWalk](DeepWalk/)
-  * [] [node2vec]
+  * node2vec
