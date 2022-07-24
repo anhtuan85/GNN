@@ -1,6 +1,6 @@
 # DeepWalk algorithm for Graph Embedding using Pytorch
 Pytorch implementation of DeepWalk and test with Karate Dataset.
-
+Paper: [https://arxiv.org/abs/1403.6652v2](https://arxiv.org/abs/1403.6652v2)
 ## Installation
 
 * Install requirements:
